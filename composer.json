@@ -1,0 +1,25 @@
+{
+    "name": "test/package",
+    "description": "Laravel package",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "thuyen ",
+        "email": "thuyennv.hust@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Package\\": "src/"
+        }
+    },
+    "extra": {
+        "providers": [
+            "Test\\Package\\TestServiceProvider"
+        ]
+    },
+    "minimum-stability": "dev"
+}
